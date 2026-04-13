@@ -2,7 +2,7 @@
 
 一个基于法庭语言学、博弈论和状态机理论的文本逆向分析 Skill，用于对角色对话日志进行认知侧写与行为预测。
 
-适用于 [AstrBot](https://github.com/Soulter/AstrBot) Skill 系统。
+适用于 [AstrBot](https://github.com/AstrBotDevs/AstrBot) Skill 系统。
 
 ## 它能做什么
 
@@ -23,10 +23,15 @@
 
 ## 使用方式
 
-1. 将 `SKILL.md` 放入 AstrBot 的 `data/skills/cognitive-behavior-profiler/` 目录下
-2. 检查在 AstrBot 中是否已启用该 Skill - 若无显示，则restart astrbot
-3. 向 Bot 提供角色对话日志，并要求进行人格侧写 / 认知分析 / 行为预测
+**本地导入方法**
+  1. 将 `SKILL.md` 放入 AstrBot 的 `data/skills/cognitive-behavior-profiler/` 目录下(在astrbot的./data/skills/下执行```git clone https://github.com/fausalors/cognitive-behavior-profiler.git```)
+  2. 检查在 AstrBot 中是否已启用该 Skill - 若无显示，则restart astrbot
+  3. 向 Bot 提供角色对话日志，并要求进行人格侧写 / 认知分析 / 行为预测
 
+**WebUI方法**
+  1. 在[releases](https://github.com/fausalors/cognitive-behavior-profiler/releases)中下载zip文件
+  2. 通过 Astrbot 的 WebUI 中的 上传 Skills 进行上传
+  3. 向 Bot 提供角色对话日志，并要求进行人格侧写 / 认知分析 / 行为预测
 ### 示例 Prompt
 
 ```
