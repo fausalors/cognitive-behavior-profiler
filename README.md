@@ -24,7 +24,7 @@
 ## 使用方式
 
 1. 将 `SKILL.md` 放入 AstrBot 的 `data/skills/cognitive-behavior-profiler/` 目录下
-2. 在 AstrBot 中启用该 Skill
+2. 检查在 AstrBot 中是否已启用该 Skill - 若无显示，则restart astrbot
 3. 向 Bot 提供角色对话日志，并要求进行人格侧写 / 认知分析 / 行为预测
 
 ### 示例 Prompt
@@ -50,8 +50,6 @@
 cd your-astrbot/data/skills/
 git clone https://github.com/fausalors/cognitive-behavior-profiler.git
 ```
-
-然后在 AstrBot 管理面板中启用即可。
 
 ## License
 
